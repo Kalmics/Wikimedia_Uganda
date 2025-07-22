@@ -10,15 +10,63 @@
     <meta property="og:title" content="uganda-wiki-hub" />
     <meta property="og:description" content="Lovable Generated Project" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d6e2c040-b26b-4381-a72f-0844c27d3302/id-preview-355eb8b3--6dcfb19c-2a2e-488e-838f-6a542b2c8c6c.lovable.app-1752906075507.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d6e2c040-b26b-4381-a72f-0844c27d3302/id-preview-355eb8b3--6dcfb19c-2a2e-488e-838f-6a542b2c8c6c.lovable.app-1752906075507.png" />
+
+    <!-- ✅ Fixed paths -->
+    <script type="module" crossorigin src="assets/index-BHuKT6Ij.js"></script>
+    <link rel="stylesheet" crossorigin href="assets/index-Cvteb-0E.css">
+
+    <style>
+      #lovable-badge {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 141px;
+        padding: 5px 13px;
+        background-color: #000;
+        color: #fff;
+        font-size: 12px;
+        border-radius: 5px;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        z-index: 1000000;
+        font-weight: 400 !important;
+      }
+    </style>
+    <script defer src="https://uganda-wiki-hub.lovable.app/~flock.js" data-proxy-url="https://uganda-wiki-hub.lovable.app/~api/analytics"></script>
   </head>
 
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Lovable badge (optional, you can delete this block if you want to remove branding) -->
+    <a id="lovable-badge" target="_blank" href="https://lovable.dev/projects/6dcfb19c-2a2e-488e-838f-6a542b2c8c6c?utm_source=lovable-badge">
+      <span style="color: #A1A1AA;">Edit with</span>
+      <!-- SVG omitted for brevity -->
+      <button id="lovable-badge-close" style="position: absolute; top: -2px; right: 5px; cursor: pointer; font-size: 14px; color: #A1A1AA;">&times;</button>
+    </a>
+
+    <script>
+      if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+        var badge = document.getElementById('lovable-badge');
+        if (badge) badge.style.display = 'none';
+      }
+
+      var closeButton = document.getElementById('lovable-badge-close');
+      if (closeButton) {
+        closeButton.addEventListener('click', function(event) {
+          event.preventDefault();
+          event.stopPropagation();
+          var badge = document.getElementById('lovable-badge');
+          if (badge) badge.style.display = 'none';
+        });
+      }
+    </script>
   </body>
 </html>
